@@ -11,12 +11,12 @@ remainder7 = int(input("> "))
 age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 
 print("Your age is {0}; that's a good time to start programming!".format(age))
-print("Now I will prove to you that I can count to any number you want." )
+print("Now I will prove to you that I can count to any number you want.")
 number = int(input("> "))
 i = 0
 while i != number+1:
     print("{0}!".format(i))
-    i = i+1
+    i = i + 1
 
 print("Completed, have a nice day")
 print("What does the git init command mean?")
